@@ -5,8 +5,8 @@
     padding: 16px;
     width: 148px;
     box-sizing: border-box;
-    transition: all 0.3s ease-in-out;
-    margin-bottom: 400px;
+   
+    margin-bottom: 370px;
     margin-left: -130px;
     opacity: 0.6;
 
@@ -23,6 +23,14 @@
   
 }
 
+.btn-primary { background: #073860 !important; color: none !important; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:visited, .btn-primary:active:focus, .open>.dropdown-toggle.btn-primary { background-color: #073860 !important; color: white !important; }
+.btn-primary.active { background-color: #073860 !important; }
+
+.btn {font-size: 0.9rem; color: white!important;}
+
+.btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active, .btn-blue:visited, .btn-blue:active:focus {background-color: #073860!important;}
+
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
   background-color: #6666FF;
  
@@ -30,4 +38,11 @@
 
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.write {
+  font-family: 'Hanalei Fill', sans-serif;
+  font-size: 12px;
+
+
 }
