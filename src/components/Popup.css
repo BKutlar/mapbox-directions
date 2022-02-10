@@ -3,11 +3,11 @@
     border: 1px solid #ccc;
     box-shadow: 1px 1xp 1px black;
     padding: 16px;
-    width: 160px;
+    width: 148px;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
     margin-bottom: 400px;
-    margin-left: -120px;
+    margin-left: -130px;
     opacity: 0.6;
 
 }
@@ -15,11 +15,11 @@
 
 
 .mdb {
-  background-color: none;
-  min-width: 5rem;
-  cursor: none;
+  background-color: transparent;
+  width: none;
+  cursor: pointer;
   opacity: 0.5;
-  margin-left: 25px;
+  margin-left: 10px;
   
 }
 

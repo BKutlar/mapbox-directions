@@ -6,7 +6,7 @@ import {
   MDBDropdownToggle,
   MDBDropdownItem,
   MDBDropdownLink,
-  MDBDropdownSelect,
+  MDBBtn,
 } from 'mdb-react-ui-kit';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 
@@ -16,7 +16,7 @@ export default function Popup(props) {
   
   return <div className="Modale"
     style={{
-      transform: props.visible ? 'translateY(0vh' : 'translateY(-100vh)',
+      transform: props.visible ? 'translateY(0vh' : 'translateY(-100vh))',
       /*opacity: props.visible ? '1' : '0'*/
 }}
 
@@ -29,16 +29,17 @@ export default function Popup(props) {
       <div >
         <MDBDropdown dropright group>
           <MDBDropdownToggle>Choose</MDBDropdownToggle>
+          
           <MDBDropdownMenu>
-            <div className="mdb">
+            <div className='mdb'>
               <MDBDropdownItem>
-                <MDBDropdownLink href="#"  class="nav nav-pills nav-stacked">EN</MDBDropdownLink>
+                <MDBDropdownLink href="#">EN</MDBDropdownLink>
               </MDBDropdownItem>
               <MDBDropdownItem>
-                <MDBDropdownLink href="#"  class="nav nav-pills nav-stacked">FR</MDBDropdownLink>
+                <MDBDropdownLink href="#"    >FR</MDBDropdownLink>
               </MDBDropdownItem>
               <MDBDropdownItem>
-                <MDBDropdownLink href="#"  class="nav nav-pills nav-stacked">TR</MDBDropdownLink>
+                <MDBDropdownLink href="#"    >TR</MDBDropdownLink>
               </MDBDropdownItem>
             </div>
           </MDBDropdownMenu>
@@ -53,13 +54,13 @@ export default function Popup(props) {
           <MDBDropdownMenu>
             <div className="mdb">
               <MDBDropdownItem>
-                <MDBDropdownLink href="#"  class="nav nav-pills nav-stacked">10%</MDBDropdownLink>
+                <MDBDropdownLink href="#">10%</MDBDropdownLink>
               </MDBDropdownItem>
               <MDBDropdownItem>
-                <MDBDropdownLink href="#"  class="nav nav-pills nav-stacked">50%</MDBDropdownLink>
+                <MDBDropdownLink href="#">50%</MDBDropdownLink>
               </MDBDropdownItem>
               <MDBDropdownItem>
-                <MDBDropdownLink href="#"  class="nav nav-pills nav-stacked">100%</MDBDropdownLink>
+                <MDBDropdownLink href="#" >100%</MDBDropdownLink>
               </MDBDropdownItem>
             </div>
           </MDBDropdownMenu>
@@ -77,13 +78,13 @@ export default function Popup(props) {
             <div className="mdb">
               <MDBDropdownItem>
 
-                <MDBDropdownLink href="#"  class="nav nav-pills nav-stacked">1s</MDBDropdownLink>
+                <MDBDropdownLink href="#"    >1s</MDBDropdownLink>
               </MDBDropdownItem>
               <MDBDropdownItem>
-                <MDBDropdownLink href="#"  class="nav nav-pills nav-stacked">2s</MDBDropdownLink>
+                <MDBDropdownLink href="#"    >2s</MDBDropdownLink>
               </MDBDropdownItem>
               <MDBDropdownItem>
-                <MDBDropdownLink href="#"  class="nav nav-pills nav-stacked">5s</MDBDropdownLink>
+                <MDBDropdownLink href="#"    >5s</MDBDropdownLink>
               </MDBDropdownItem>
             </div>
           </MDBDropdownMenu>

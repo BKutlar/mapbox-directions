@@ -4,7 +4,7 @@
     border-radius: 10%;
   
     margin-left: 150px;
-    height: 50px;
+    height: 55px;
     width: 143px;
     cursor: pointer;
     display: flex;
@@ -12,6 +12,7 @@
     font-size: 20px;
     color:white;
     font-weight: lighter;
+    opacity: 0.6;
   }
   .book img {
     width: 20px;
@@ -28,16 +29,17 @@
     background-color: grey;
       border-color: black;
       border-radius: 10%;
-      margin-left: 10px;
+      margin-left: 70px;
       display: flex;
       align-items: center;
       /*transform:translateY(-50px);*/
       font-size: 20px;
       cursor: pointer;
-      height: 50px;
+      height: 55px;
       width: 120px;
     color: white;
     font-weight: lighter;
+    opacity: 0.6;
   }
   
   .settings img {
