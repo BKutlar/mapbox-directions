@@ -1,11 +1,7 @@
 import React, {useState} from 'react';
 import './Boutton.css';
-import Overlay from './Overlay';
 import Popup from './Popup';
-import SOC from './SOC';
-import LogiqueModale from './LogiqueModale';
-import Modale from './Modale';
-
+import DropModal from './DropModal';
 
 export default class Button extends React.Component  {
 
@@ -54,17 +50,18 @@ export default class Button extends React.Component  {
       <img src="parameters.svg" alt='' />  <span>Settings</span>
 
       
-
+    
     </button>
 
     <Popup
     
       visible={this.state.visible}
       notview={this.notview}>
-      
+        
+     
       </Popup>
 
- 
+      
     </div>
 
     )
